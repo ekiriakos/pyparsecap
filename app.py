@@ -46,9 +46,6 @@ create_table_cmd += "\n" + required_fields[-1] + " text" + "\n);"
 #print(create_table_cmd)
 
 
-# Choose pcap file
-# TODO: Make path OS agnostic
-
 cap = pyshark.FileCapture('.\\traces\\a.pcap')
 
 
