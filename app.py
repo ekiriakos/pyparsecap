@@ -3,7 +3,6 @@ import pymysql
 import datetime
 from database import *
 from pathlib import Path
-import pandas as pd
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
 import sqlite3
@@ -11,7 +10,7 @@ import database
 
 # TODO: Add src_host and dst_host from IP layer.
 #       Choose pcap file from file browser and make path OS agnostic.
-#       Parse xml in msg_body.
+#       Check for module parse xml in msg_body.
 
 startTime = datetime.datetime.now()
 
